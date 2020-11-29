@@ -15,7 +15,7 @@ btn.addEventListener("click",translator);
 
 
 function errorHandler(error){
-    alert("please try out after some time", error);
+    alert("We are having some issues,please try out after some time", error);
 }
 
 
