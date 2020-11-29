@@ -56,18 +56,31 @@ a{
     padding: 0.5rem 1rem; 
 }
 .bottom_footer{
-    display: inline; 
-    padding: 1rem 1rem;   
+    display: inline;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
 }
 
-.footer{
-    display: flex;
-    position: fixed;
-    left: 25%;
-    bottom: 0;
-    width: 50%;
-    text-align: center;   
+.fa-linkedin {
+  background: #3B82F6;
+  color:white;
+  border: none;
 }
+.fa-github {
+    background:black;
+    color:white;
+    border: none;
+  }
 
 @media screen and (max-width: 800px) {
     
