@@ -42,6 +42,27 @@ a{
     border-radius: 0.5rem;
     border: 2px solid #F59E0B;
 }
+button {
+    background-color: #F59E0B; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+textarea{
+    border: 2px solid #F59E0B ;
+    border-radius: 10px;
+}
+input{
+    border: 2px solid #F59E0B ;
+    border-radius: 10px;
+}
 
 .link_color{
     background-color: #F59E0B;  
